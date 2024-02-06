@@ -1,13 +1,10 @@
 import os
-
 import allure
 from selene import browser, have
-from selene.support.shared.jquery_style import s, ss
-import time
+from selene.support.shared.jquery_style import s
 import requests
 from allure_commons._allure import step
 from dotenv import load_dotenv
-
 from tests.conftest import BASE_URL
 from utils.utils import post_request
 
